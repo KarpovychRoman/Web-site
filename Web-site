@@ -2,6 +2,20 @@
 <html>
 <head>
     <title>Сервіс ветеринарної клінікі</title>
+    <style>
+        h1, h2, label, input, button, ul {
+            text-align: center; /* Вирівнюємо текст посередині */
+        }
+        
+        h1 {
+            color: red; /* Встановлюємо колір тексту заголовка на червоний */
+        }
+        
+        button[type="submit"] {
+            background-color: green; /* Встановлюємо колір фону кнопки на зелений */
+            color: white; /* Встановлюємо колір тексту кнопки на білий */
+        }
+    </style>
 </head>
 <body>
     <h1>Сервіс ветеринарної клініки</h1>
